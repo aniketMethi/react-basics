@@ -1,9 +1,10 @@
 import React from 'react'
 
-function Header() {
+function Header(props) {
     return (
         <div>
-            <h1>Hello Functional Component</h1>
+            <h1>Hello {props.name} {props.cid}</h1>
+            {props.children}
         </div>
     )
 }
