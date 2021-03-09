@@ -12,7 +12,11 @@ function App() {
         <h5>Champion</h5>
       </Header>
       <Header name = "Coder" cid ="002"/>
-      <CHeader/>
+      <CHeader name = "Coder" cid = "003">
+        <h5>Champion</h5>
+      </CHeader>
+      <CHeader name = "Coder" cid ="004"/>
+      
     </div>
   );
 }
