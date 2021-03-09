@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import CHeader from './components/CHeader';
+import Channel from './components/Channel';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <h5>Champion</h5>
       </CHeader>
       <CHeader name = "Coder" cid ="004"/>
+      <Channel></Channel>
       
     </div>
   );
